@@ -1,82 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
         <title>Seaside Lunch</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     </head>
-    <body>
+<body>
 
-
-
-
-        <header class="header">
-            <nav class="navbar">
-                <div class="brand-title">Brand Name</div>
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <div class="navbar-links">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-    
-            <div class="image-container"></div>
-        </header>
-
-        <div class="grid-container">
-            <main class="main-content">
-                <div class="item-1">
-                    <h3>Lunch And Services</h3>
-                    <p>Flavourful lunchmeals from our restaurant and shop</p>
-                    <a href="">Read More</a>
-                </div>
-
-                <div class="item-2">
-                    <h3>Catering</h3>
-                    <p>Feastfood for every occation</p>
-                    <a href="">Read More</a>
-                </div>
-
-                <div class="item-3">
-                    <h3>About Us</h3>
-                    <p>Delicious food from the year 1999</p>
-                    <a href="">Read More</a>
-                </div>
-            </main>
-            
-
-            <aside class="sidebar">
-                    <h3>Lunch Of The Day</h3>
-                    <p>Smoked Salmon with Asparigus</p>
-                    <p>Rosted Seabass with side salad</p>
-                    <p>Grilled Shripms with steamed vegetables</p>
-            </aside>
-
+    <!-- HEADER SECTION -->
+    <nav>
+        <p>Seaside Lunch</p>
+        <ul>
+            <li><a href="#company-name">Home</a></li>
+            <li><a href="#footer-main">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-container">
+        <div class="bg-image"></div>
+        <div class="header-content">
+            <h1 id="company-name">Welcome To Seaside Lunch</h1>
+            <h3>Serving delicious meals inspired by the Sea</h3>
         </div>
+    </div>
+    </header>
 
-        <footer class="footer">
-            <div class="footer-div">
-                <h3>Social Media</h3>
-                <a href="">Facebook</a>
-                <a href="">Twitter</a>
-                <a href="">Instagram</a>
+    <!-- MAIN AREA -->
+    <main>
+
+        <!-- SECTION A -->
+        <section id="section-a" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/6348772/pexels-photo-6348772.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <div class="card-content">
+                            <h3>About Us</h3>
+                            <p>We are a family owned restaurant passionated about food and the riches of the sea. Our founders and grandparents started this restaurant in 1995, so we are the family's third generation proudly upholding the same values.</p>
+                            <a href="#section-b" class="btn">Read More</a>
+                        </div>
+                    </div>    
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/57980/pexels-photo-57980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <div class="card-content">
+                            <h3>Services</h3>
+                            <p>We serve three lunch alternatives every weekday, including a vegetarian alternative. All of our daily meals are available as glutenfree and/or lactose free. We also provide catering services for all events.</p>
+                            <a href="#section-c" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="https://images.pexels.com/photos/761854/pexels-photo-761854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                        <div class="card-content">
+                            <h3>Lunch of Today</h3>
+                            <p>Follow the link below to view our lunch alternatives of the day. All "hot" lunch alternatives are available as take away. We also offer daily "cold" lunch boxes for anyone in a rush, that have been prepared the same day.</p>
+                            <a href="#section-d" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- SECTION B -->
+        <section id="section-b" class="grid">
+            <div class="grid-container">
+                <h2>About Us</h2>
+                <p>As third generation restaurant owners, we are proud of our heritage as well as the values set by our hardworking grandparents.</p>
+                <p>We are passionated about the food we make and the process of creating. As a coastal family, we have always been near the sea and all the great things it provides.</p>
+                <p>The sea is our greatest source of inspiration and the place where we spend most of our leasure time.</p>
             </div>
-            <div class="footer-div">
-                <h3>Opening Hours</h3>
-                <p>Monday - Friday</p>
-                <p>10.30 - 14.00</p>
+        </section>
+
+        <!-- SECTION C -->
+        <section id="section-c" class="grid">
+            <div class="grid-container">
+                <h2>Services</h2>
+                <p>We serve three different lunch alternatives every day. All of which have an ingridient of the sea. Our lunch meals can be served as both gluten and/or lactose free.</p>
+                <p>Our services include catering any small to mid sized event. For catering menu's, we provide additional meal alternatives which can be customized depending on the type of event and any preferences.</p>
+                <p>See our contact information at the bottom of the page and let us know how we can create an amazing menu for your important day.</p>
             </div>
-            </footer>
-    
-    </body>
+        </section>
+
+         <!-- SECTION D -->
+        <section id="section-d" class="grid">
+            <div class="grid-container">
+                <h2>Lunch of Today</h2>
+                <p>Grilled sea bass with carmalized carrots and dill covered potatoes <i>L G</i></p>
+                <p>Fried perch fillets with a sea inspired dipp and split potatoes <i>L G</i></p>
+                <p>Seaweed pasta served with roasted vegetables <i>L G (Vegetarian)</i></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer-main" class="grid">
+        <ul>
+            <li>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Open At</h3>
+                        <p>Monday - Friday</p>
+                        <p>10:30 - 14:00</p>
+                        <p>Rantakatu 20, 65100 Vaasa</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Contact</h3>
+                        <p>Phone: +358(0)561238596</p>
+                        <p>Email: contact@seasidelunch.com</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </footer>
+</body>
 </html>
-
